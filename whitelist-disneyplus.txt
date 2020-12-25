@@ -3,18 +3,30 @@
 @@||image.mail.disneyplus.com
 @@||click.mail.disneyplus.com
 @@||global.edge.bamgrid.com
-#appconfigs.disney-plus.net #amazon stick
+@@||appconfigs.disney-plus.net
 #disney.demdex.net #amazon stick - ublock plugin blocks this ||demdex.net^
 @@||config-cd-dmgz.bamgrid.com
 @@||cd-dmgz.bamgrid.com
 #@@||disney.my.sentry.io #no idea what this is but works without it.
 @@||bam-sdk-configs.bamgrid.com
-@@||search-api-disney.svcs.dssott.com #this is needed or half the dashboard loads with missing images.
+#this is needed or half the dashboard loads with missing images.
+@@||search-api-disney.svcs.dssott.com
 @@||prod-ripcut-delivery.disney-plus.net
-@@||vpe-static.bamgrid.com #Disney will not connect to the servers without whitelisting this one first.
+#Disney will not connect to the servers without whitelisting this one first.
+@@||vpe-static.bamgrid.com
 #look for server links looking like this, this is where Disney gets there feed from.
 #vod-akc-na-east-1.media.dssott.com
 #vod-llc-na-east-1.media.dssott.com
 #vod-cmc-na-east-1.media.dssott.com
 #vod-ftc-na-east-1.media.dssott.com
 @@||media.dssott.com^
+@@||prod-static.disney-plus.net
+@@||search-api-disney.bamgrid.com
+@@||playback-certs.bamgrid.com
+
+
+#most likely not needed
+
+#	prod-ripcut-delivery.bamgrid.com
+# dialacrum.iad-03.braze.com
+# sdk.iad-01.braze.com
